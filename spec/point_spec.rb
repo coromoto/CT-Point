@@ -1,4 +1,5 @@
-#Fichero con las espectativas de la clase Punto
+# Fichero con las espectativas de la clase Punto
+# Cualquier cambio hace que se ejecute guard
 
 require 'point'
 
