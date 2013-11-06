@@ -7,7 +7,7 @@ GEM
     diff-lcs (1.2.4)
     ffi (1.9.3)
     formatador (0.2.4)
-    guard (2.2.2)
+    guard (2.2.3)
       formatador (>= 0.2.4)
       listen (~> 2.1)
       lumberjack (~> 1.0)
@@ -16,9 +16,9 @@ GEM
     guard-bundler (2.0.0)
       bundler (~> 1.0)
       guard (~> 2.2)
-    guard-rspec (4.0.3)
-      guard (>= 2.1.1)
-      rspec (~> 2.14)
+    guard-rspec (3.1.0)
+      guard (>= 1.8)
+      rspec (~> 2.13)
     listen (2.2.0)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -49,7 +49,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  celluloid
   guard-bundler
-  guard-rspec
+  guard-rspec (< 4.0.0)
   rake
   rspec
